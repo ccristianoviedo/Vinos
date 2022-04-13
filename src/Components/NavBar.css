@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    margin-left: 20px;        
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 100%;    
+}
+.navbar {
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0);
+}
