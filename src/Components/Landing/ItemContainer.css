@@ -1,0 +1,15 @@
+.itemContainer {
+    width: 300px;
+    height: 530px;
+    border: black solid;
+    margin-left: 20%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+
+.imgLanding{
+    width: 150px;
+    height: 250px;
+    border-radius: 0%;
+}
