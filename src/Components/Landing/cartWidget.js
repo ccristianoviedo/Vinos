@@ -2,11 +2,10 @@ import React from 'react';
 import './cartWidget.css'
 import cartImg from'./imgLanding/cart.jpg'
 
-
-const CartWidget=()=>{
+const CartWidget=()=>{  
     return(
         <>
-        <img src={cartImg} className='cartImg'/>
+        <img src={cartImg} alt='imagen' className='cartImg'/>
         <label className='CartCounter'>1</label>
         </>
     )
