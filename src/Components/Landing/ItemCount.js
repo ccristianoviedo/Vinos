@@ -2,8 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './ItemCount.css'
 
-
-
 const ItemCount=(props)=>{
    if (props.contador1<props.stock){  
             if(props.contador1>=1 && props.stock>=1){
@@ -36,6 +34,4 @@ const ItemCount=(props)=>{
         </>
     )  
 }
-
-
 export default ItemCount;

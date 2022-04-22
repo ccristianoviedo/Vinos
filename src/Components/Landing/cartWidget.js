@@ -1,12 +1,12 @@
 import React from 'react';
 import './cartWidget.css'
-import cartImg from'./imgLanding/cart.jpg'
+import cartImg from'../Assets/img/cart.jpg'
 
 const CartWidget=()=>{  
     return(
         <>
-        <img src={cartImg} alt='imagen' className='cartImg'/>
-        <label className='CartCounter'>1</label>
+            <img src={cartImg} alt='imagen' className='cartImg'/>
+            <label className='CartCounter'>1</label>
         </>
     )
 }
